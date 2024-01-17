@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    double attend,total_class;
+    cout<<"Enter total number of class:"<<endl;
+    cin>>total_class;
+    cout<<"Enter number of class you attended:"<<endl;
+    cin>>attend;
+    double attendance = (attend*100)/total_class;
+    cout<<"My attendance percentage is: "<<round(attendance)<<"%"<<endl;
+    return 0;
+}
+
